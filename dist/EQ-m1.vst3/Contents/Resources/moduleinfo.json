@@ -1,0 +1,48 @@
+{
+  "Name": "EQ-m1",
+  "Version": "1.0.0",
+  "Factory Info": {
+    "Vendor": "EQ-m1",
+    "URL": "",
+    "E-Mail": "",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "ABCDEF019182FAEB45716D3145714D31",
+      "Category": "Audio Module Class",
+      "Name": "EQ-m1",
+      "Vendor": "EQ-m1",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+        "Equalizer",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "ABCDEF011234ABCD45716D3145714D31",
+      "Category": "Component Controller Class",
+      "Name": "EQ-m1",
+      "Vendor": "EQ-m1",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+        "Equalizer",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}
