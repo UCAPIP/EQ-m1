@@ -1,0 +1,30 @@
+FROM ubuntu:24.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Everything JUCE needs to configure and build a Linux VST3 / standalone target.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        build-essential \
+        cmake \
+        ninja-build \
+        git \
+        pkg-config \
+        libasound2-dev \
+        libjack-jackd2-dev \
+        libcurl4-openssl-dev \
+        libfreetype-dev \
+        libx11-dev \
+        libxcomposite-dev \
+        libxcursor-dev \
+        libxext-dev \
+        libxi-dev \
+        libxinerama-dev \
+        libxrandr-dev \
+        libxrender-dev \
+        libxkbcommon-dev \
+        libglu1-mesa-dev \
+        mesa-common-dev \
+        libwebkit2gtk-4.1-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /work

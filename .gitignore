@@ -1,0 +1,33 @@
+# Build output
+build/
+build-*/
+out/
+dist/
+cmake-build-*/
+*.user
+*.log
+
+# JUCE fetched by CMake
+_deps/
+
+# Compiled objects / binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.vst3/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+
+# OS
+.DS_Store
+Thumbs.db
